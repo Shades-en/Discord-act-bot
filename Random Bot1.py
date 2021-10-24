@@ -78,6 +78,13 @@ async def duration(ctx,member:discord.Member):
             y=(activity.start)
             if y!=None:
                 print(activity.name,f"~ {x-y}")
+    
+
+@client.event
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.MemberNotFound):
+        print("Member Not Found")
+
             
 
            
