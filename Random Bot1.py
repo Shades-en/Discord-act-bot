@@ -8,7 +8,7 @@ from datetime import datetime
 
 
 intents=discord.Intents.all()
-token="ODYyNzE2MDI5MTgzNTkwNDUw.YOcY6Q.aqScrYDIDkMPJStzyGky1fPi92Q"
+token=""
 client = commands.Bot(command_prefix=".",intents=intents)
 
 @client.event
