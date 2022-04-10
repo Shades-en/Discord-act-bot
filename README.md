@@ -2,7 +2,7 @@
 A discord bot which makes activity navigation easier, and provides resources to invite other users, either in games or any other domain, 
 Also has commands to return the duration of a particular activity.
 
-## Installation
+## Set Up
 
 To deploy this project run the following commands
 
@@ -15,5 +15,5 @@ To deploy this project run the following commands
 ## Usage
 
 ```bash
-python Random Bot.py
+python Random Bot1.py
 ```
